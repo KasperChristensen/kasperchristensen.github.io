@@ -1,0 +1,51 @@
+https://keybase.io/falkendk
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://kasperchristensen.com
+  * I am falkendk (https://keybase.io/falkendk) on keybase.
+  * I have a public key ASBdaJJ1PdsrbKI69N-a6nI3cGXH_6UOym8k5dibMFLLEAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01205d6892753ddb2b6ca23af4df9aea72377065c7ffa50eca6f24e5d89b3052cb100a",
+            "host": "keybase.io",
+            "kid": "01205d6892753ddb2b6ca23af4df9aea72377065c7ffa50eca6f24e5d89b3052cb100a",
+            "uid": "75dff0419ecc283a4d850e7e1f900919",
+            "username": "falkendk"
+        },
+        "service": {
+            "hostname": "kasperchristensen.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.15"
+    },
+    "ctime": 1463563523,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1463563243,
+        "hash": "7edb4204c38e747e2ea6b76bc05c7bf0f687b67bb9a3356955646ad9f49963c019400f8d361a125566c5e14ee582249939cef0722d1f72fda8ddc2c5fc3bbb99",
+        "seqno": 466284
+    },
+    "prev": "3c6bd25f19fff2c42e3176dea4076c0959d4939653b1bdc2702c264ba267ab73",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgXWiSdT3bK2yiOvTfmupyN3Blx/+lDspvJOXYmzBSyxAKp3BheWxvYWTFAvx7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNWQ2ODkyNzUzZGRiMmI2Y2EyM2FmNGRmOWFlYTcyMzc3MDY1YzdmZmE1MGVjYTZmMjRlNWQ4OWIzMDUyY2IxMDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNWQ2ODkyNzUzZGRiMmI2Y2EyM2FmNGRmOWFlYTcyMzc3MDY1YzdmZmE1MGVjYTZmMjRlNWQ4OWIzMDUyY2IxMDBhIiwidWlkIjoiNzVkZmYwNDE5ZWNjMjgzYTRkODUwZTdlMWY5MDA5MTkiLCJ1c2VybmFtZSI6ImZhbGtlbmRrIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJrYXNwZXJjaHJpc3RlbnNlbi5jb20iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE1In0sImN0aW1lIjoxNDYzNTYzNTIzLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NjM1NjMyNDMsImhhc2giOiI3ZWRiNDIwNGMzOGU3NDdlMmVhNmI3NmJjMDVjN2JmMGY2ODdiNjdiYjlhMzM1Njk1NTY0NmFkOWY0OTk2M2MwMTk0MDBmOGQzNjFhMTI1NTY2YzVlMTRlZTU4MjI0OTkzOWNlZjA3MjJkMWY3MmZkYThkZGMyYzVmYzNiYmI5OSIsInNlcW5vIjo0NjYyODR9LCJwcmV2IjoiM2M2YmQyNWYxOWZmZjJjNDJlMzE3NmRlYTQwNzZjMDk1OWQ0OTM5NjUzYjFiZGMyNzAyYzI2NGJhMjY3YWI3MyIsInNlcW5vIjo5LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQDtanWTtcwv6U8z9wsCQvIqVh1cqIU8wADwj7l+TeIWPbK6JAipK+aTKEWg97p7dXZooRml0mp6pexlH/rBDgA+oc2lnX3R5cGUgo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/falkendk
