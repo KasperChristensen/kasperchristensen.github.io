@@ -1,3 +1,4 @@
+==================================================================
 https://keybase.io/falkendk
 --------------------------------------------------------------------
 
@@ -5,16 +6,18 @@ I hereby claim:
 
   * I am an admin of http://kasperchristensen.com
   * I am falkendk (https://keybase.io/falkendk) on keybase.
-  * I have a public key ASBdaJJ1PdsrbKI69N-a6nI3cGXH_6UOym8k5dibMFLLEAo
+  * I have a public key with fingerprint C251 04C6 B8A4 4D30 9A20  30E4 C22F 9F84 69E5 F9FC
 
 To do so, I am signing this object:
 
 {
     "body": {
         "key": {
-            "eldest_kid": "01205d6892753ddb2b6ca23af4df9aea72377065c7ffa50eca6f24e5d89b3052cb100a",
+            "eldest_kid": "0120bccb21632c6442f29ad4e5e254a857609bbcf272a07caca4c5008ff102f8bafa0a",
+            "fingerprint": "c25104c6b8a44d309a2030e4c22f9f8469e5f9fc",
             "host": "keybase.io",
-            "kid": "01205d6892753ddb2b6ca23af4df9aea72377065c7ffa50eca6f24e5d89b3052cb100a",
+            "key_id": "c22f9f8469e5f9fc",
+            "kid": "0101495402bc2fd16d60a5a6944c86e4f3eebb27020b8109019e0df787ed1204a8770a",
             "uid": "75dff0419ecc283a4d850e7e1f900919",
             "username": "falkendk"
         },
@@ -25,27 +28,48 @@ To do so, I am signing this object:
         "type": "web_service_binding",
         "version": 1
     },
-    "client": {
-        "name": "keybase.io go client",
-        "version": "1.0.15"
-    },
-    "ctime": 1463563523,
-    "expire_in": 504576000,
-    "merkle_root": {
-        "ctime": 1463563243,
-        "hash": "7edb4204c38e747e2ea6b76bc05c7bf0f687b67bb9a3356955646ad9f49963c019400f8d361a125566c5e14ee582249939cef0722d1f72fda8ddc2c5fc3bbb99",
-        "seqno": 466284
-    },
-    "prev": "3c6bd25f19fff2c42e3176dea4076c0959d4939653b1bdc2702c264ba267ab73",
-    "seqno": 9,
+    "ctime": 1493714539,
+    "expire_in": 157680000,
+    "prev": "1fca54420d6d793c05e3b1daca410452ea2a9f6da27d70e3d3e9e2159f876de9",
+    "seqno": 25,
     "tag": "signature"
 }
 
 which yields the signature:
 
-g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgXWiSdT3bK2yiOvTfmupyN3Blx/+lDspvJOXYmzBSyxAKp3BheWxvYWTFAvx7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNWQ2ODkyNzUzZGRiMmI2Y2EyM2FmNGRmOWFlYTcyMzc3MDY1YzdmZmE1MGVjYTZmMjRlNWQ4OWIzMDUyY2IxMDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNWQ2ODkyNzUzZGRiMmI2Y2EyM2FmNGRmOWFlYTcyMzc3MDY1YzdmZmE1MGVjYTZmMjRlNWQ4OWIzMDUyY2IxMDBhIiwidWlkIjoiNzVkZmYwNDE5ZWNjMjgzYTRkODUwZTdlMWY5MDA5MTkiLCJ1c2VybmFtZSI6ImZhbGtlbmRrIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJrYXNwZXJjaHJpc3RlbnNlbi5jb20iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE1In0sImN0aW1lIjoxNDYzNTYzNTIzLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NjM1NjMyNDMsImhhc2giOiI3ZWRiNDIwNGMzOGU3NDdlMmVhNmI3NmJjMDVjN2JmMGY2ODdiNjdiYjlhMzM1Njk1NTY0NmFkOWY0OTk2M2MwMTk0MDBmOGQzNjFhMTI1NTY2YzVlMTRlZTU4MjI0OTkzOWNlZjA3MjJkMWY3MmZkYThkZGMyYzVmYzNiYmI5OSIsInNlcW5vIjo0NjYyODR9LCJwcmV2IjoiM2M2YmQyNWYxOWZmZjJjNDJlMzE3NmRlYTQwNzZjMDk1OWQ0OTM5NjUzYjFiZGMyNzAyYzI2NGJhMjY3YWI3MyIsInNlcW5vIjo5LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQDtanWTtcwv6U8z9wsCQvIqVh1cqIU8wADwj7l+TeIWPbK6JAipK+aTKEWg97p7dXZooRml0mp6pexlH/rBDgA+oc2lnX3R5cGUgo3RhZ80CAqd2ZXJzaW9uAQ==
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.68
+Comment: https://keybase.io/crypto
+
+yMNzAnicbVJrTFRHGF1ELBAMqwVRKorXKAgU577vXZ4VqxZoI5E21ZJu7mPu7s2y
+j+5dXqFAAGMDTVAbeVUMxGKKrSVVm6KQBrBYQZRXMS2SpYAxbVME05BWDITOJfqv
+82dmvpzvzDnfmb6NvoZAn1v7m0+qj5eWfQZ7W/IMx/0P2Yox0SkXYaZizAbXNpgr
+Q81jtqkyZsIATgBRkkQCZ0hCYiiKUAhekClIQ4KmBI5mGcCLoqQQLCEAVhIkgZJo
+ADhFwQGhcKKgCEDA4jBFdVig2+VWHR5EKxE0DiiJETmBomQS8AIBSAApiSAUXuEo
+hoc0Okio0erU9A4kThQ0GK86UQ1dzGvy/gf/UjfAKZ6mACFKhCLjjMwAgRYYnqIk
+joGUQkIoigQLkD0OBzzAeQhkheVYKCPLyBnLrunOW6NjaVlRAIVAkkRwpEDJHA0g
+C3GFB4DHeR2oQbdDsEOEVoRcG3TINqwkDkPVfFWC+mB1Jy8QNkFzQbdkdauaBzo0
+6IiXnHZE4nI7PU7JmYsgVo/HZdIZPEUuvaUAiuYXZGZRdchonqghH7o11enATDhC
+Sh5VZ0fGSRanaJKPw2ChS3VDs6ojUFYcQEt/BuYjSlyRBBpFCmRGZnlSAjQkRVzW
+M0Tp0AQUCIFXGFkgWJkFkJRJyEMCp9HEWUaGumsNfuRwYiaCRjoFC+LUVItD8OS5
+IVZyqzdnvcEn0LDBb53+0QyBAcaX32/5TvBqQWtTfw57Y89XB1WSa1tYlwlM0/MH
+Kd+0Y9VU9fk39s7X91uicu92lC6nDtcaazOmVoOO5dSc3bG/5HDa1oAjkQXbev5t
+vB6UFNSe3DmYtz37m9u53o6J5p7n2pdPL4U/4SeniLQnhVmMd1J6dyRYGdpGF06s
+zNwJN3nSxyveTq8PGxj4oMFf+Wc0/a+rnz+MjV9PR19TLj/gJiIbh7//ebB0y6N7
+Q6o1Kv/qxd7mHTcNKfd+bMtu/gwrrattD79SuXjh06SR4DpjYlXmPrLrVV57HvrU
+XMWFnIr2OZkJyyNb38SiSss2VYX1le32Bny3ZWHkCv/HeGFLlkJVPPJtTBoMWfRd
+eJCS9UXn17O/bRUT+Iac1aPjyugFYmnuY1B+w2n3hkT8nmFten2uu8Z4bkxg+ZEi
+a3fifJFl5dvYxROepfh9E8+iK+wP6/7cPOo6tzB5pqxgrmvDrvgMMP1DymDFzHtH
+R11hYyeM3bM7Oy7GJMbc15qWhy/FHhhoGwv/NfQXf/v1w9kaGLWe75fzEg7MPmuv
+LNgV5m0IObLp9gy9Zyy1/3QEvvGTt1pCldfstZe9CzuHXkn2i+gJUPuKHv+dLBez
+M/f7j/e9b6teDJ/1N860xfy02155Jj912n5z71Rru6XzdIPzUMKHd7en+vmcap5K
+6r1WvDnnnfryriwseSWyJuU/nwjCGg==
+=E9vv
+-----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
 
 View my publicly-auditable identity here: https://keybase.io/falkendk
+
+==================================================================
