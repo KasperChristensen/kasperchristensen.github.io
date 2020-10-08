@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>AI Slider | #</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="app.css">
+        <!--<link rel="icon" type="image/svg+xml" href="esoft-icon.svg">-->
+    </head>
+    <body>
+        <div class="editor">
+            <div class="editor__image">
+                <canvas id="canvas" data-image></canvas>
+            </div>
+            <div class="editor__controls">
+                <div class="logo">
+                    <svg id="logoHome" class="" viewBox="0 0 120.605 43.465">
+                        <g data-name="Logo" id="logo_first" style="visibility: inherit; opacity: 1;">
+                            <path data-name="Fill 1" d="M7.356,11.569H21.845c-.056-4.958-3.734-7.713-8.081-7.713C8.415,3.856,4.4,8.043,4.4,13.992c0,6.115,4.236,10.136,10.031,10.136a11.473,11.473,0,0,0,8.3-3.635l2.508,2.864A14.694,14.694,0,0,1,14.378,28.04C6.186,28.04,0,21.925,0,14.048A13.835,13.835,0,0,1,13.876,0c6.966,0,12.371,4.958,12.371,12.119a15.788,15.788,0,0,1-.334,3.2H7.356Z" transform="translate(0 14.488)"></path>
+                            <path data-name="Fill 3" d="M10.365,28.04A12.955,12.955,0,0,1,0,22.807L2.731,20c2.016,2.146,4.355,4.132,7.8,4.132a12,12,0,0,0,2.508-.276v3.8A8.017,8.017,0,0,1,10.365,28.04Zm5.35-1.1v-6.06c0-2.937-2.194-3.821-4.734-4.846l-2.622-1.1c-4.047-1.676-6.743-3.592-6.743-7.492A6.7,6.7,0,0,1,2.808,3.485,6.744,6.744,0,0,1,5.962,1.1V6.17c0,3.036,1.611,3.845,4.459,5.013l2.508,1.047a15.629,15.629,0,0,1,5.517,3.388,6.312,6.312,0,0,1,1.672,4.545,7.076,7.076,0,0,1-4.4,6.774Zm1.5-20.052h0a9.044,9.044,0,0,0-6.631-2.974,11.1,11.1,0,0,0-1.895.22V.331A7.929,7.929,0,0,1,11.09,0a11,11,0,0,1,4.981,1.15,11.245,11.245,0,0,1,3.769,3.092L17.221,6.885Z" transform="translate(29.663 14.488)"></path>
+                        </g>
+                        <g id="logo_second" style="visibility: inherit; opacity: 1;">
+                            <path data-name="Fill 5" d="M8.192,41.922H3.9V21.594H8.192V41.921ZM14.151,18.9H0v-3.8H3.9V8.7c0-2.919.846-5.155,2.515-6.645A9.317,9.317,0,0,1,12.817,0a12.532,12.532,0,0,1,3.455.441v3.58a19.869,19.869,0,0,0-2.508-.165A6.292,6.292,0,0,0,9.745,4.93,4.84,4.84,0,0,0,8.192,8.979v6.114h5.959v3.8Z" transform="translate(86.911 0)"></path>
+                            <path data-name="Fill 7" d="M12.279,34.761c-5.858,0-9.083-3.091-9.083-8.7V13.827H7.487V25.781c0,1.917.515,3.248,1.574,4.07A6.613,6.613,0,0,0,13.227,30.9a23.1,23.1,0,0,0,3.622-.331v3.581A18.421,18.421,0,0,1,12.279,34.761Zm3.679-23.633H0v-3.8H3.2V0H7.487V7.327h8.471v3.8Z" transform="translate(103.756 7.768)"></path>
+                        </g>
+                        
+                        <g id="logo_orange">
+                        <path data-name="Fill 8" d="M15.856,5.645H13.908a.822.822,0,0,1-.825-.815V.815A.822.822,0,0,0,12.259,0H8.519a.822.822,0,0,0-.825.815V4.83a.822.822,0,0,1-.825.815H5.046a1.9,1.9,0,0,0-1.421.563L0,9.63a15.162,15.162,0,0,0,10.418,4.118A15.161,15.161,0,0,0,20.869,9.6L17.276,6.207a1.869,1.869,0,0,0-1.421-.563" transform="translate(58.463 29.717)" fill="#ff8200" style="visibility: inherit; opacity: 1;"></path>
+                        <path data-name="Fill 9" d="M7.5,10.459V4.139a1.262,1.262,0,0,0-.728-1.2L1.152,0A14.814,14.814,0,0,0,3.388,15.156L6.9,11.836a1.786,1.786,0,0,0,.6-1.378" transform="translate(53.756 22.785)" fill="#ff8200" style="visibility: inherit; opacity: 1;"></path>
+                        <path data-name="Fill 11" d="M7.137,10.4l4.3-2.707a1.394,1.394,0,0,0,.7-1.253V0A15.137,15.137,0,0,0,0,7.469L5.713,10.46A1.436,1.436,0,0,0,7.137,10.4" transform="translate(55.768 13.598)" fill="#ff8200" style="visibility: inherit; opacity: 1;"></path>
+                        <path data-name="Fill 10" d="M.7,7.712l4.331,2.7a1.423,1.423,0,0,0,1.426.054l5.709-2.989A15.137,15.137,0,0,0,0,0V6.462a1.453,1.453,0,0,0,.7,1.25" transform="translate(69.837 13.596)" fill="#ff8200" style="visibility: inherit; opacity: 1;"></path>
+                        <path data-name="Fill 12" d="M6.349,0,.728,2.942A1.316,1.316,0,0,0,0,4.139v6.25a1.853,1.853,0,0,0,.6,1.378l3.541,3.342A14.781,14.781,0,0,0,7.5,5.717,14.752,14.752,0,0,0,6.349,0" transform="translate(76.509 22.798)" fill="#ff8200" style="visibility: inherit; opacity: 1;"></path>
+                        </g>
+                    </svg>
+                </div>
+    
+                <!--<div class="section">
+                    <h2>Select adjustment mode</h2>
+                    <div class="buttons">
+                        <button data-mode="normal">Normal mode</button>
+                        <button data-mode="colors">Only colors mode</button>
+                    </div>
+                </div>-->
+                
+                <div class="section">
+                    <h2>Adjust image</h2>
+                    <div class="slider">
+                        <label class="slider__label" for="slider-pos">Positive </label>
+                        <datalist id="slider-one">
+                            <option value="0"></option>
+                            <option value="20"></option>
+                            <option value="40"></option>
+                            <option value="60"></option>
+                            <option value="80"></option>
+                            <option value="100"></option>
+                            <option value="120"></option>
+                            <option value="140"></option>
+                            <option value="160"></option>
+                            <option value="180"></option>
+                            <option value="200"></option>
+                        </datalist>
+                        <input type="range" name="slider-pos" id="slider-pos" min="0" max="200" value="0" id="" list="slider-two" class='' data-slider="pos">
+                        <div class="slider__indicator indicator">
+                            <span class="indicator__value">0.0</span>
+                            <span class="indicator__value">0.5</span>
+                            <span class="indicator__value">1.0</span>
+                            <span class="indicator__value">1.5</span>
+                            <span class="indicator__value">2.0</span>
+                        </div>
+    
+                    </div>
+                    <div class="slider">
+                        <label class="slider__label" for="slider-neg">Negative</label>
+                        <datalist id="slider-two">
+                            <option value="0"></option>
+                            <option value="20"></option>
+                            <option value="40"></option>
+                            <option value="60"></option>
+                            <option value="80"></option>
+                            <option value="100"></option>
+                            <option value="120"></option>
+                            <option value="140"></option>
+                            <option value="160"></option>
+                            <option value="180"></option>
+                            <option value="200"></option>
+                        </datalist>
+                        <input type="range" name="slider-neg" id="slider-neg" min="0" max="200" value="0" id="" list="slider-two" class='' data-slider="neg">
+                        <div class="slider__indicator indicator">
+                            <span class="indicator__value">0.0</span>
+                            <span class="indicator__value">0.5</span>
+                            <span class="indicator__value">1.0</span>
+                            <span class="indicator__value">1.5</span>
+                            <span class="indicator__value">2.0</span>
+                        </div>
+                    </div>
+                    <div class="spacer"></div>
+                    <h2>Presets</h2>
+                    <div class="buttons">
+                        <button data-preset="original" data-pos=0 data-neg=0>Show Original</button>
+                        <button data-preset="suggestion" data-pos=1 data-neg=1>Show Suggestion</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--<object data="normal.html" type="text/html"></object>-->
+        <script type="module" src="app.js"></script>
+        <!--<script src="js/script.min.js"></script>-->
+    </body>
+</html>
+
